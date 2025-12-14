@@ -1,0 +1,99 @@
+
+* {
+  :root {
+  --bg: #f4f7fa;          
+  --card-bg: #ffffff;     
+  --card-border: #e5e9f2; 
+  --btn: #4a90e2;         
+  --btn-hover: #357abd;   
+  --text-dark: #222;
+  --text-med: #555;
+  --text-light: #ece8e8;
+}
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #222;
+  background: #fff;
+}
+
+
+.hero {
+  height: 100vh;
+  background: #06bf34;
+background-image: linear-gradient(315deg, #990881 0%, #170502 74%, #000000 100%, #173d1b 100%, #06bf34 100%, #0b610b 100%, #000000 100%);
+    background-size: cover;
+background-attachment: fixed;
+    color: #fff;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.25rem;
+  margin-bottom: 30px;
+  color: #ede6e6;
+}
+
+.btn {
+  display: inline-block;
+  background: #0077ff;
+  color: #fff;
+  padding: 14px 32px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: background .3s;
+}
+.btn:hover {
+  background: #005fd1;
+}
+
+
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 80px 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #180118;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  width: 280px;
+  padding: 30px;
+  text-align: center;
+}
+
+.card h2 {
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+    color: #ffffff;
+}
+
+.card p {
+  color: #e7ecec;
+}
+
+
+footer {
+  text-align: center;
+  padding: 30px 20px;
+  font-size: .875rem;
+  color: #f1f0f0;
+  border-top: 1px solid #eaeaea;
+  background-color: #222;
+}
